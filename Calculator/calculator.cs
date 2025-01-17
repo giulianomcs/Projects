@@ -1,46 +1,46 @@
 using System;
 
-class Calculator {
+class Calculadora {
     static void Main(string[] args) {
-        double num1, num2, result;
-        char op;
+        double num1, num2, resultado;
+        char operador;
 
-        Console.Write("Enter the first number: ");
+        Console.Write("Digite o primeiro número: ");
         num1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter the second number: ");
+        Console.Write("Digite o segundo número: ");
         num2 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter an operator (+, -, *, /): ");
-        op = Convert.ToChar(Console.ReadLine());
+        Console.Write("Digite um operador (+, -, *, /): ");
+        operador = Convert.ToChar(Console.ReadLine());
 
-        switch(op) {
+        switch(operador) {
             case '+':
-                result = num1 + num2;
-                Console.WriteLine("{0} + {1} = {2}", num1, num2, result);
+                resultado = num1 + num2;
+                Console.WriteLine("{0} + {1} = {2}", num1, num2, resultado);
                 break;
 
             case '-':
-                result = num1 - num2;
-                Console.WriteLine("{0} - {1} = {2}", num1, num2, result);
+                resultado = num1 - num2;
+                Console.WriteLine("{0} - {1} = {2}", num1, num2, resultado);
                 break;
 
             case '*':
-                result = num1 * num2;
-                Console.WriteLine("{0} * {1} = {2}", num1, num2, result);
+                resultado = num1 * num2;
+                Console.WriteLine("{0} * {1} = {2}", num1, num2, resultado);
                 break;
 
             case '/':
                 if (num2 == 0) {
-                    Console.WriteLine("Error: division by zero");
+                    Console.WriteLine("Erro: divisão por zero");
                 } else {
-                    result = num1 / num2;
-                    Console.WriteLine("{0} / {1} = {2}", num1, num2, result);
+                    resultado = num1 / num2;
+                    Console.WriteLine("{0} / {1} = {2}", num1, num2, resultado);
                 }
                 break;
 
             default:
-                Console.WriteLine("Invalid operator");
+                Console.WriteLine("Operador inválido");
                 break;
         }
     }
