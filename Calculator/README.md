@@ -1,17 +1,17 @@
-# Simple Calculator in C#
-This is a simple calculator program written in C# that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+# Calculadora Simples em C#
+Este é um programa de calculadora simples escrito em C# que pode realizar operações aritméticas básicas, como adição, subtração, multiplicação e divisão.
 
-## How to Use
-- Clone or download the repository to your local machine.
-- Open the project in your C# development environment.
-- Compile and run the program.
-- Follow the on-screen prompts to enter two numbers and an operator (+, -, *, /).
-- The program will perform the corresponding arithmetic operation and display the result.
+## Como Usar
+- Clone ou faça o download do repositório para sua máquina local.
+- Abra o projeto no seu ambiente de desenvolvimento C#.
+- Compile e execute o programa.
+- Siga as instruções na tela para inserir dois números e um operador (+, -, *, /).
+- O programa realizará a operação aritmética correspondente e exibirá o resultado.
 
-## Features
-- Simple and easy-to-use interface
-- Handles division by zero error
-- Performs basic arithmetic operations (+, -, *, /)
+## Funcionalidades
+- Interface simples e fácil de usar
+- Trata erros de divisão por zero
+- Realiza operações aritméticas básicas (+, -, *, /)
 
-## Dependencies
-- .NET Framework 4.5 or later
+## Dependências
+- .NET Framework 4.5 ou posterior
